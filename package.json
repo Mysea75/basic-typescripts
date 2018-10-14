@@ -1,0 +1,31 @@
+{
+  "name": "basic-typescripts",
+  "version": "1.0.0",
+  "description": "Learning TypeScripts from Tutorial Points",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mysea75/basic-typescripts.git"
+  },
+  "author": "Ghulam Moinuddin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mysea75/basic-typescripts/issues"
+  },
+  "homepage": "https://github.com/Mysea75/basic-typescripts#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "typescript": "^3.1.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^5.2.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
